@@ -1,0 +1,116 @@
+/*HEADER START*/
+.header{
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+
+}
+.header-wrapper{
+	display: flex;
+
+}
+.logo{
+	margin-top: 25px;
+	margin-left: 95px;
+}
+.nav{
+	margin-top: 30px;
+	margin-right: 98px;	
+}
+.nav-ul{
+	display: flex;
+	margin-left: 334px;
+	margin-top: 10px;
+	margin-bottom: 30.1px;	
+}
+.nav-li{
+	margin-right: 58px;
+	color: #303134;
+	font-size: 15px;
+
+}
+
+/*HEADER END*/
+
+/*SECTION 1 START*/
+.section-1{
+	padding-top: 58.67px;
+	padding-bottom: 73.8px;
+}
+.background-image{
+	background-image: url("../image/background.jpg");
+	height: 650px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.background-image h1{
+	font-size: 78.74px;
+	color: #FFFFFF;
+	margin-bottom: 34.3px;
+}
+.background-image h4{
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+/*SECTION 1 END*/
+
+/*SECTION 2 START*/
+.section-1{
+	padding-top: 73.8px;
+	padding-bottom: 73.8px;
+}
+.section-2-wrapper{
+	width: 1171.57px;
+	margin: 0 auto;
+	display: flex;
+}
+.block-1{
+	width: 241.47px;
+	margin-right: 59.1px;
+}
+.block-1 h6{
+	font-size: 16px;
+	color: #8D8D8D;
+	margin-bottom: 2.2px;
+}
+.block-1 h2{
+	font-size: 26px;
+	color: #1A1A1B;
+	font-weight: bold;
+	margin-bottom: 39.1px;
+}
+.block-1 p{
+	font-size: 16px;
+	color: #8D8D8D;
+}
+.block-2{
+	width: 870px;
+	height: 327.42px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.card-1{
+	width: 269.07px;
+}
+.card-1 h3{
+	margin-top: 20.4px;
+	margin-bottom: 7.8px;
+	font-size: 18px;
+	color: #1A1A1B;
+}
+.card-1 p{
+	font-size: 16px;
+	color: #8D8D8D;
+}
+.space{
+	margin-bottom: 56px;
+}
+
+/*SECTION 2 END*/
