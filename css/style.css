@@ -9,15 +9,19 @@
 }
 .header-wrapper{
 	display: flex;
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-left: 30px;
 
 }
 .logo{
-	margin-top: 25px;
-	margin-left: 95px;
+	
 }
 .nav{
-	margin-top: 30px;
-	margin-right: 98px;	
 }
 .nav-ul{
 	display: flex;
@@ -30,6 +34,9 @@
 	color: #303134;
 	font-size: 15px;
 
+}
+.font-awesome{
+	display: none;
 }
 
 /*HEADER END*/
@@ -68,19 +75,20 @@
 
 /*SECTION 2 START*/
 .section-2{
-	max-width: 1263.33px;
+	max-width: 1263.33x;
 	width: 100%;
 	padding-bottom: 100px;
 }
 .section-2-wrapper{
-	max-width: 1171.57px;
+	max-width: 1263.33px;
 	width: 100%;
 	margin: 0 auto;
 	display: flex;
+	justify-content: space-around;
 }
 .block-1{
-	max-width: 241.47px;
-	width: 100%;
+	width: 241.47px;
+	height: 200px;
 	margin-right: 59.1px;
 }
 .block-1 h6{
